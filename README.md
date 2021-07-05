@@ -25,7 +25,14 @@ description: Open an in-app browser window.
 |:-:|:-:|
 |[![Build status](https://ci.appveyor.com/api/projects/status/github/apache/cordova-plugin-inappbrowser?branch=master)](https://ci.appveyor.com/project/ApacheSoftwareFoundation/cordova-plugin-inappbrowser)|[![Build Status](https://travis-ci.org/apache/cordova-plugin-inappbrowser.svg?branch=master)](https://travis-ci.org/apache/cordova-plugin-inappbrowser)|
 
+# Fork Info
+
+This fork implements `onReceivedClientCertRequest`, so client certificate authentication works withing the InAppBrowser.  The implementation
+for picking a certificate was taken from the [cordova-plugin-client-certificate-support](https://github.com/cordova-ccafix/cordova-plugin-client-certificate-support) plugin.
+
+
 # cordova-plugin-inappbrowser
+
 
 You can show helpful articles, videos, and web resources inside of your app. Users can view web pages without leaving your app.
 
